@@ -1,0 +1,16 @@
+{
+  "name": "contract-review-workbench",
+  "version": "1.0.0",
+  "private": true,
+  "description": "合同审查工作台：上传或粘贴合同，调用扣子工作流完成合同风险审查并展示可执行整改建议。",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "check:secrets": "node scripts/check-secrets.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
